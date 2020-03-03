@@ -1,4 +1,4 @@
-# Berth
+# Berthit
 Convert URL's into links without affecting HTML elements.
 
 Before:

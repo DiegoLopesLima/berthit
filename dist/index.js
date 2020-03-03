@@ -9,7 +9,7 @@
   };
 
 const
-  berth = (content, options = { target: '_self' }) => {
+  berthit = (content, options = { target: '_self' }) => {
     const
       div = document.createElement('div'),
       id = +`${Math.random()}`.replace(/[^\d]/g, '');
@@ -33,4 +33,4 @@ const
       .replace(new RegExp(`\\[\/a-${id}\\]`, 'g'), '</a>');
   };
 
-exports. default = berth;
+exports. default = berthit;
