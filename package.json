@@ -1,0 +1,15 @@
+{
+  "name": "berth",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/DiegoLopesLima/berth.git",
+  "author": "DiegoLopesLima <web.diego.lima@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "sucrase ./src -d ./dist --transforms typescript,imports"
+  },
+  "devDependencies": {
+    "sucrase": "^3.12.1",
+    "typescript": "^3.8.3"
+  }
+}
